@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PBA App (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PBA App (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
