@@ -1,4 +1,4 @@
 # PBA App
 The official app of the PBA
 
-<img src=https://raw.githubusercontent.com/Tech5G5G/Windows-Fluent-Theme-for-Discord/main/Display.png>
+<img src=https://github.com/Tech5G5G/PBA-App/raw/master/PBA%20App%20Showcase.png>
