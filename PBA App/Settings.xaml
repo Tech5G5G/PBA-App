@@ -21,6 +21,9 @@
             <TextBlock Foreground="{ThemeResource TextFillColorSecondaryBrush}"
                    Text="Version 1.0" />
             <controls:SettingsExpander.Items>
+                <controls:SettingsCard Header="GitHub Page">
+                    <HyperlinkButton Content="Tech5G5G/PBA-App" NavigateUri="https://github.com/Tech5G5G/PBA-App"/>
+                </controls:SettingsCard>
                 <controls:SettingsCard Header="Licensing Information" Description="©️ 2024 Ignacy Tomczyk"/>
             </controls:SettingsExpander.Items>
         </controls:SettingsExpander>
