@@ -24,7 +24,7 @@
        VerticalAlignment="Top"
        HorizontalAlignment="Left"
        Margin="79,16,16,16"/>
-        <NavigationView x:Name="nvSample" PaneDisplayMode="Auto" IsBackButtonVisible="Collapsed" SelectionChanged="nvSample_SelectionChanged">
+        <NavigationView x:FieldModifier="public" x:Name="nvSample" PaneDisplayMode="Auto" IsBackButtonVisible="Collapsed" SelectionChanged="nvSample_SelectionChanged">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" Content="Home" x:Name="NavItem_Home" />
                 <NavigationViewItem Icon="Add" Content="Join" x:Name="NavItem_Join" />

@@ -45,6 +45,9 @@ namespace PBA_App
         {
             m_window = new MainWindow();
             m_window.Activate();
+            MainWindow mw = (MainWindow)((App)Application.Current).m_window;
+            var item = mw.nvSample.MenuItems.First(i => ((NavigationViewItem)i).Name == "NavItem_Home");
+            mw.nvSample.SelectedItem = item;
         }
 
         private Window m_window;
