@@ -11,21 +11,23 @@
     xmlns:ui="using:CommunityToolkit.WinUI"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <StackPanel Spacing="4" BorderThickness="25">
+    <ScrollView VerticalScrollBarVisibility="Hidden">
+        <StackPanel Spacing="4" BorderThickness="25">
 
-        <TextBlock Text="Settings   " FontSize="28" FontFamily="Segoe UI Variable Display" FontWeight="SemiBold" />
-        <TextBlock Text="" FontSize="10"/>
+            <TextBlock Text="Settings   " FontSize="28" FontFamily="Segoe UI Variable Display" FontWeight="SemiBold" />
+            <TextBlock Text="" FontSize="10"/>
 
-        <controls:SettingsExpander Description="Licensed by The PBA"
-                                           Header="PBA App" HeaderIcon="{ui:BitmapIcon Source=Assets/Square150x150Logo.png}">
-            <TextBlock Foreground="{ThemeResource TextFillColorSecondaryBrush}"
-                   Text="Version 1.0" />
-            <controls:SettingsExpander.Items>
-                <controls:SettingsCard Header="GitHub Page">
-                    <HyperlinkButton Content="Tech5G5G/PBA-App" NavigateUri="https://github.com/Tech5G5G/PBA-App"/>
-                </controls:SettingsCard>
-                <controls:SettingsCard Header="Licensing Information" Description="©️ 2024 Ignacy Tomczyk"/>
-            </controls:SettingsExpander.Items>
-        </controls:SettingsExpander>
-    </StackPanel>
+            <controls:SettingsExpander Description="Licensed by The PBA"
+                                       Header="PBA App" HeaderIcon="{ui:BitmapIcon Source=Assets/Square150x150Logo.png}">
+                <TextBlock Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+               Text="Version 1.1.0.0" />
+                <controls:SettingsExpander.Items>
+                    <controls:SettingsCard Header="GitHub Page">
+                        <HyperlinkButton Content="Tech5G5G/PBA-App" NavigateUri="https://github.com/Tech5G5G/PBA-App"/>
+                    </controls:SettingsCard>
+                    <controls:SettingsCard Header="Licensing Information" Description="©️ 2024 Ignacy Tomczyk"/>
+                </controls:SettingsExpander.Items>
+            </controls:SettingsExpander>
+        </StackPanel>
+    </ScrollView>
 </Page>
